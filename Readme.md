@@ -22,18 +22,14 @@ The 'package.json' in this repo is a ipm spec's package.json, [here](https://doc
 	3. The URL specific to the above dataset can be copied from here and pasted into the ConstantsPowerBI library.
 	4. There is no need for an API key when using this URL. So it's advised to keep it secret.
 
+
 2. Setup on ClearBlade: 
 
 	1.  Navigate to the Code / Libraries / ConstantsPowerBI and provide your the URL, where the data needs to be published. 
-	
 	2.  As a developer, browse to the service Code / Services / SetupPowerBI
 	    1.  Modify the constants at the top, if required
-	    2.  Save and Test the service (This service only needs to be executed once)
-	3.  Reusability: Data can be published to multiple datasets in the same fashion, by 		creating more code services.
-
-## API
-
-_Document your API here_
+	    2.  Save and Test the service (This service only needs to be executed once).
+	3.  Reusability: Data can be published to multiple datasets in the same fashion, by 	creating more code services.
 
 ## Usage
 After setting up the system, the user can use the publish data to PowerBI using the PublishToPowerBI service. Once the data is available at PowerBI, further analytics can be done.
