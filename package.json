@@ -1,0 +1,45 @@
+{
+    "author": {
+        "email": "yjain@clearblade.com"
+    },
+    "clouds": [],
+    "description": "This package lets user publish data on PowerBI and perform external analytics",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "powerBI",
+        "powerbi",
+        "external",
+        "analytics",
+        "external-analytics"
+    ],
+        "asset_types": [
+            "Code Services",
+            "Portals",
+            "Libraries",
+            "Triggers"
+        ],
+        "license": "MIT",
+        "name": "powerbi-service",
+        "private": false,
+        "prog_lang": ["javascript"],
+        "protocols": [],
+        "things": [],
+        "version": "1.0.0",
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "repository": {
+            "type": "git",
+            "url": "git+https://github.com/yashjain28/powerbi-service.git"
+        },
+        "bugs": {
+            "url": "https://github.com/yashjain28/powerbi-service/issues"
+        },
+        "homepage": "https://github.com/yashjain28/powerbi-service#readme"
+        
+}

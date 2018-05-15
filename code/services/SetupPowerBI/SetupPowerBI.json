@@ -1,0 +1,10 @@
+{
+    "current_version": 3,
+    "dependencies": "ConstantsPowerBI,http,clearblade,log",
+    "logging_enabled": "true",
+    "name": "SetupPowerBI",
+    "params": [],
+    "permissions": {},
+    "run_user": "",
+    "source": "SetupPowerBI.js"
+}
