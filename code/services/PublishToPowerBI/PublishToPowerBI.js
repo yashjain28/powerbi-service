@@ -1,7 +1,7 @@
 /**
  * PublishToPowerBI publishes data to PowerBI. 
  * In this IPM, it is triggered when some data is published on DeviceData mqtt message topic
- * The payload structure is defined by the user when creating a dataset.
+ * IMP: The payload structure is defined by the user when creating a dataset.
  * @param {string} body 
  * @example
  * 
@@ -15,7 +15,6 @@
 
 function PublishToPowerBI(req, resp){
     var requestObject = Requests();
-    
     var message = [];
     message.push(JSON.parse(req.params.body));
     

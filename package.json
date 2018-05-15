@@ -1,12 +1,10 @@
 {
-    "author": {
-        "email": "yjain@clearblade.com"
-    },
+    "author": "Yash Jain <yashkjain1994@gmail.com>",
     "clouds": [],
-    "description": "This package lets user publish data on PowerBI and perform external analytics",
+    "description": "This package lets user publish data on PowerBI allowing user to perform external analytics on PowerBI",
     "domains": [],
     "gateways": [],
-    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "image_url": "https://i.imgur.com/nMagJVm.png",
     "keywords": [
         "clearblade",
         "iot",
@@ -20,7 +18,6 @@
         "asset_types": [
             "Code Services",
             "Portals",
-            "Libraries",
             "Triggers"
         ],
         "license": "MIT",
