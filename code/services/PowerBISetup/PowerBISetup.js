@@ -1,4 +1,4 @@
-function SetupPowerBI(req, resp) {
+function PowerBISetup(req, resp) {
     var portalUserPassword = "clearblade";         // change this to something unique
 
     var response = {

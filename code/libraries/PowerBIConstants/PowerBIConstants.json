@@ -2,7 +2,7 @@
     "api": "",
     "dependencies": "",
     "description": "",
-    "name": "ConstantsPowerBI",
-    "version": 3,
+    "name": "PowerBIConstants",
+    "version": null,
     "visibility": "system"
 }

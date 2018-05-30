@@ -12,7 +12,7 @@
         "CodeServices": [
             {
                 "Level": 1,
-                "Name": "PublishToPowerBI",
+                "Name": "PowerBIPublish",
                 "SystemKey": "f883d1af0be8b7cc90adc39ec4bd01"
             }
         ],

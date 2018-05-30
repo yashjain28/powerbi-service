@@ -1,8 +1,8 @@
 {
     "current_version": 6,
-    "dependencies": "http,clearblade,ConstantsPowerBI,log",
+    "dependencies": "http,clearblade,PowerBIConstants,log",
     "logging_enabled": "true",
-    "name": "PublishToPowerBI",
+    "name": "PowerBIPublish",
     "params": [
         "body"
     ],
@@ -11,5 +11,5 @@
         "Authenticated": 1
     },
     "run_user": "",
-    "source": "PublishToPowerBI.js"
+    "source": "PowerBIPublish.js"
 }
