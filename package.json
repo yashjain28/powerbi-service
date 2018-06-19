@@ -15,28 +15,30 @@
         "analytics",
         "external-analytics"
     ],
-        "asset_types": [
-            "Code Services",
-            "Portals",
-            "Triggers"
-        ],
-        "license": "MIT",
-        "name": "powerbi-service",
-        "private": false,
-        "prog_lang": ["javascript"],
-        "protocols": [],
-        "things": [],
-        "version": "1.0.0",
-        "scripts": {
-            "test": "echo \"Error: no test specified\" && exit 1"
-        },
-        "repository": {
-            "type": "git",
-            "url": "git+https://github.com/yashjain28/powerbi-service.git"
-        },
-        "bugs": {
-            "url": "https://github.com/yashjain28/powerbi-service/issues"
-        },
-        "homepage": "https://github.com/yashjain28/powerbi-service#readme"
-        
+    "asset_types": [
+        "System",
+        "Code Services",
+        "Portals",
+        "Triggers"
+    ],
+    "license": "MIT",
+    "name": "powerbi-service",
+    "private": false,
+    "prog_lang": [
+        "javascript"
+    ],
+    "protocols": [],
+    "things": [],
+    "version": "1.1.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yashjain28/powerbi-service.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yashjain28/powerbi-service/issues"
+    },
+    "homepage": "https://github.com/yashjain28/powerbi-service#readme"
 }

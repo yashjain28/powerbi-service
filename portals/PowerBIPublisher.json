@@ -15,11 +15,11 @@
         "datasources": {
             "331d4190-092a-4435-be31-ec23b13356f6": {
                 "id": "331d4190-092a-4435-be31-ec23b13356f6",
-                "name": "PublishToPowerBI",
+                "name": "PowerBIPublish",
                 "settings": {
                     "CALL_ON_LOAD": true,
                     "SUPPRESS_DATASOURCE_ERRORS": false,
-                    "code_name": "PublishToPowerBI",
+                    "code_name": "PowerBIPublish",
                     "payload": "{}",
                     "refresh_interval": 0
                 },

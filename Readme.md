@@ -19,39 +19,37 @@ The 'package.json' in this repo is a ipm spec's package.json, [here](https://doc
 	Following steps are assuming user already has a account on PowerBI.
 	1. Create a streaming dataset in PowerBI. It can be easily created by selecting on the workspace tab on the PowerBI console and create new dataset button and selecting the API option over there.
 	2. User needs to specify the payload structure when creating a dataset. The post payload should maintain the corresponding structure.
-	3. The URL specific to the above dataset can be copied from here and pasted into the ConstantsPowerBI library.
+	3. The URL specific to the above dataset can be copied from here and pasted into the PowerBIConstants library.
 	4. There is no need for an API key when using this URL. So it's advised to keep it secret.
 
 
 2. Setup on ClearBlade: 
 
-	1.  Navigate to the Code / Libraries / ConstantsPowerBI and provide your the URL, where the data needs to be published. 
-	2.  As a developer, browse to the service Code / Services / SetupPowerBI
+	1.  Navigate to the Code / Libraries / PowerBIConstants and provide your the URL, where the data needs to be published. 
+	2.  As a developer, browse to the service Code / Services / PowerBISetup
 	    1.  Modify the constants at the top, if required
 	    2.  Save and Test the service (This service only needs to be executed once).
 	3.  Reusability: Data can be published to multiple datasets in the same fashion, by 	creating more code services.
 
 ## Usage
-After setting up the system, the user can use the publish data to PowerBI using the PublishToPowerBI service. Once the data is available at PowerBI, further analytics can be done.
+After setting up the system, the user can use the publish data to PowerBI using the PowerBIPublish service. Once the data is available at PowerBI, further analytics can be done.
 
 To easily try our PowerBI integration, open the PowerBIPublisher portal where you can simulate device data being published 
 
+## Assets
 ### Code Services
-SetupPowerBI - a setup service that creates users and ensures all constants are set.  This service should only be run once.
+* `PowerBISetup` - a setup service that creates users and ensures all constants are set.  This service should only be run once.
 
-PublishToPowerBI - a service which publishes data to PowerBI, the data is the mqtt message payload, which it is subsrcibed to.
+* `PowerBIPublish` - a service which publishes data to PowerBI, the data is the mqtt message payload, which it is subsrcibed to.
 
 ### Code Libraries
-ConstantsPowerBI - a constants library, which holds constants specific to PowerBI ipm, in this case it's just the URL(s). 
+`PowerBIConstants` - a constants library, which holds constants specific to PowerBI ipm, in this case it's just the URL(s). 
 
 ### Code Triggers
-OnDevicePublish - A trigger which calls the PublishToPowerBI code service when message is published to the DeviceData message topic. 
+`PowerBIOnDevicePublish` - A trigger which calls the PowerBIPublish code service when message is published to the DeviceData message topic. 
 
 User can define more triggers based on the requirements. 
 
 ### Portals
-PowerBIPublisher: It's a demo portal, which allows user to mock up devices and send data to PowerBI. It can be customized according to users needs. 
 
-## Thank you
-
-Powered by ClearBlade Enterprise IoT Platform: [https://platform.clearblade.com](https://platform.clearblade.com)
+`PowerBIPublisher` - It's a demo portal, which allows user to mock up devices and send data to PowerBI. It can be customized according to users needs. 

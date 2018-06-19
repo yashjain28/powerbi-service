@@ -1,4 +1,8 @@
-function SetupPowerBI(req, resp) {
+/**
+ * This service setups the environment for user in clearblade to use powerbi.
+ * needs to be run only once.
+ */
+function PowerBISetup(req, resp) {
     var portalUserPassword = "clearblade";         // change this to something unique
 
     var response = {
